@@ -405,13 +405,12 @@ footer i {
         margin-bottom: 20px;
     }
 }
-
-/* For mobile devices (max width 768px) */
 @media (max-width: 768px) {
     nav {
         flex-direction: column;
         height: auto;
         padding: 10px;
+        display: none;
     }
 
     nav h1 {
@@ -419,16 +418,15 @@ footer i {
     }
 
     nav ul {
-        display: block;
         text-align: center;
     }
 
     nav ul li {
-        margin: 10px 0;
+        margin: 10px 3px;
     }
 
     .home {
-        margin-top: 50%;
+        margin-top: 10%;
         margin-left: 5%;
         text-align: center;
     }
@@ -447,10 +445,12 @@ footer i {
         font-size: 16px;
         line-height: 30px;
     }
-
+    .About img{
+        margin-left: 100%;
+    }
     .About,
     .About-textcontent {
-        width: 100%;
+        width: 90%;
         margin: 0 auto;
         left: 0;
     }
