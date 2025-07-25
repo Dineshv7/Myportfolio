@@ -355,19 +355,16 @@ span {
     color: black;
     background-color: rgb(134, 130, 129);
 }
-
+footer{
+    margin-top: -60px;
+}
 /* Footer */
 footer i {
+    margin-top: -30px;
     font-size: 25px;
     margin-bottom: 20px;
     margin-right: 10px;
 }
-
-/* --------------------- */
-/*      RESPONSIVE       */
-/* --------------------- */
-
-/* For tablets (max width 1024px) */
 @media (max-width: 1024px) {
     nav ul li a {
         font-size: 24px;
@@ -431,7 +428,7 @@ footer i {
     }
 
     .home {
-        margin-top: 30%;
+        margin-top: 50%;
         margin-left: 5%;
         text-align: center;
     }
